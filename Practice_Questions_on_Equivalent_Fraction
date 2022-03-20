@@ -1,0 +1,167 @@
+#!/usr/bin/python3.9
+
+# Filename: Practice_Questions_on_Equivalent_Fraction
+
+print("Practice_Questions_on_Equivalent_Fraction¾⋙")
+# The name of the app
+print(" Made by Rokaya Muhammad")
+# The name of who made the app(Me)
+print("Hi, What's your name?📝")
+# Ask about the user's name
+Name = input("Name: ")
+print("Hello",Name,"!👋")
+# Welcoming the user
+while True:
+	Quest1 = input("Ready for the practice?(y for yes and n for no): ")
+	if Quest1 in('y','Y'):
+		print("Q. 1a")
+		print("Practice Questions on Equivalent Fractions")
+		print("Fill in the missing numbers using the concept of equivalent fractions.")
+		Ans1a = input("49  49 × n   7 What is the value of n: ")   
+		print("౼ = ౼      = ౼")
+		Ans1a2 = input("56  56 × n   8 What is the value of n: ")  
+		if Ans1a=='7':
+			print("Checking...")
+			print("")
+			print("")
+			print("")
+			print("n = 7")
+			print("✓")
+			print("")
+			print("")
+			print("")
+		else:
+			print("Checking...")
+			print("")
+			print("")
+			print("")
+			print("n = 7")
+			print("✗")
+			print("")
+			print("")
+			print("")
+		if Ans1a2=='7':
+			print("Checking...")
+			print("")
+			print("")
+			print("")
+			print("n = 7")
+			print("✓")
+			print("")
+			print("")
+			print("")
+		else:
+			print("Checking...")
+			print("")
+			print("")
+			print("")
+			print("n = 7")
+			print("✗")
+			print("")
+			print("")
+			print("")
+		print("Q. 1b")
+		print("Fill in the missing numbers using the concept of equivalent fractions.")
+		Ans1b = input("11  11 × n  33 What is the value of n: ")   
+		print("౼ = ౼      = ౼")
+		Ans1b2 = input("13  13 × n  39 What is the value of n: ")  
+		if Ans1b=='3':
+			print("Checking...")
+			print("")
+			print("")
+			print("")
+			print("n = 3")
+			print("✓")
+			print("")
+			print("")
+			print("")
+		else:
+			print("Checking...")
+			print("")
+			print("")
+			print("")
+			print("n = 3")
+			print("✗")
+			print("")
+			print("")
+			print("")
+		if Ans1b2=='3':
+			print("Checking...")
+			print("")
+			print("")
+			print("")
+			print("n = 3")
+			print("✓")
+			print("")
+			print("")
+			print("")
+		else:
+			print("Checking...")
+			print("")
+			print("")
+			print("")
+			print("n = 3")
+			print("✗")
+			print("")
+			print("")
+			print("")
+		print("Q. 2")
+		print("Find the missing number using the concept of equivalent fractions.")
+		print("14  1")   
+		print("౼ = ౼")
+		Ans2 = input("28  ")  
+		if Ans2=='2':
+			print("Checking...")
+			print("")
+			print("")
+			print("")
+			print("it's 2")
+			print("✓")
+			print("")
+			print("")
+			print("")
+			
+		else:
+			print("Checking...")
+			print("")
+			print("")
+			print("")
+			print("it's supposed to be 2")
+			print("✗")
+			print("")
+			print("")
+			print("")
+		if Ans1a and Ans1a2=='7':
+			if Ans1b and Ans1b2=='3':
+				if Ans2=='2':
+					print("3 out of 3")
+			
+				else:
+					print("2 out of 3")
+			else:
+				if Ans2=='2':
+					print("2 out of 3")
+				else:
+					print("1 out of 3")
+		else:
+			if Ans1b and Ans1b2=='3':
+				if Ans2=='2':
+					print("2 out of 3")
+			
+				else:
+					print("1 out of 3")
+			else:
+				if Ans2=='2':
+					print("1 out of 3")
+				else:
+					print("0 out of 3")				
+					
+	if Quest1 in('n','N'):
+		print('Good Bye!')
+		print('See you soon!')
+		print(';)!')
+		break
+else:
+	print('Good Bye',Name,'!')
+	print('See you soon!')
+	print(';)!')
